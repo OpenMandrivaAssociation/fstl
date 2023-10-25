@@ -8,7 +8,7 @@ URL:		https://github.com/mkeeter/fstl.git
 Source0:	https://github.com/fstl-app/fstl/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	ninja
-BuildRequires:	qmake
+BuildRequires:	qmake5
 BuildRequires:	cmake(Qt5Core)
 BuildRequires:	cmake(Qt5Gui)
 BuildRequires:	cmake(Qt5OpenGL)
