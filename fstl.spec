@@ -30,7 +30,7 @@ showing 2 million triangles at 60+ FPS on a mid-range laptop.
 %autosetup -p1
 
 %build
-%cmake_qt5 \
+%cmake \
 	-G Ninja
 %ninja_build
 
