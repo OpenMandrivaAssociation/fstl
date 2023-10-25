@@ -8,6 +8,7 @@ URL:		https://github.com/mkeeter/fstl.git
 Source0:	https://github.com/fstl-app/fstl/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	ninja
+BuildRequires:	qmake
 BuildRequires:	cmake(Qt5Core)
 BuildRequires:	cmake(Qt5Gui)
 BuildRequires:	cmake(Qt5OpenGL)
@@ -30,7 +31,7 @@ showing 2 million triangles at 60+ FPS on a mid-range laptop.
 %autosetup -p1
 
 %build
-%cmake \
+%cmake_qt5 \
 	-G Ninja
 %ninja_build
 
