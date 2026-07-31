@@ -1,6 +1,6 @@
 Summary:	A fast STL file viewer 
 Name:		fstl
-Version:	0.11.0
+Version:	0.11.1
 Release:	1
 License:	AGPLv3
 Group: 		Graphics
